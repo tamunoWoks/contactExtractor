@@ -32,3 +32,11 @@ The code for this mini-project can be found on [contactExtractor.py](https://git
 Reach us at 415-863-9900 or 415.863.9950.
 You can also email info@nostarch.com or sales@nostarch.com for details.
 ```
+### Output (printed & copied):
+```txt
+Copied to clipboard:
+415-863-9900
+415-863-9950
+info@nostarch.com
+sales@nostarch.com
+```
