@@ -4,7 +4,7 @@
 This tool is inspired by practical text processing problems. For example, scanning a web page, document, or message for contact information and can easily be adapted for automation scripts or data cleaning workflows.
 
 ### Code Overview:
-The code for this mini-project can be found on ()[]
+The code for this mini-project can be found on [contactExtractor.py](https://github.com/tamunoWoks/contactExtractor/blob/main/contactExtractor.py)
 
 ## Features:
 - Detects **multiple phone number formats** such as:
