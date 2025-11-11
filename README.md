@@ -40,3 +40,9 @@ Copied to clipboard:
 info@nostarch.com
 sales@nostarch.com
 ```
+## Requirements
+- Python 3.x
+- Install the pyperclip module:
+```bash
+pip install pyperclip
+```
