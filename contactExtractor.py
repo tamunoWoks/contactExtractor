@@ -17,3 +17,8 @@ email_re = re.compile(r'''(
     [a-zA-Z0-9.-]+          # Domain name
     (\.[a-zA-Z]{2,4})       # Dot-something
 )''', re.VERBOSE)
+
+# Read text from clipboard
+text = str(pyperclip.paste())
+
+matches = []
