@@ -43,6 +43,6 @@ sales@nostarch.com
 ## Requirements
 - Python 3.x
 - Install the pyperclip module:
-```bash
-pip install pyperclip
-```
+    ```bash
+    pip install pyperclip
+    ```
