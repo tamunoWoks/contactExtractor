@@ -22,3 +22,10 @@ email_re = re.compile(r'''(
 text = str(pyperclip.paste())
 
 matches = []
+
+# Extract phone numbers
+for groups in phone_re.findall(text):
+    phone_num = '-'.join([groups[1], groups[3], groups[5]])
+    if groups[6] != '':
+        phone_num += ' x' + groups[6]
+    matches.append(phone_num)
