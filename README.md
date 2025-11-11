@@ -26,4 +26,9 @@ The code for this mini-project can be found on [contactExtractor.py](https://git
 3. All detected matches are combined into a single list.
 4. The matches are copied back to your clipboard and printed to the terminal.
 
-
+## Example Usage
+### Input (copied to clipboard):
+```txt
+Reach us at 415-863-9900 or 415.863.9950.
+You can also email info@nostarch.com or sales@nostarch.com for details.
+```
