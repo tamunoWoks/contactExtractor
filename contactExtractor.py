@@ -33,3 +33,11 @@ for groups in phone_re.findall(text):
 # Extract emails
 for groups in email_re.findall(text):
     matches.append(groups[0])
+
+# Output
+if len(matches) > 0:
+    pyperclip.copy('\n'.join(matches))
+    print('Copied to clipboard:')
+    print('\n'.join(matches))
+else:
+    print('No phone numbers or email addresses found.')
