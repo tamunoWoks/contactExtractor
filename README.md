@@ -51,3 +51,6 @@ sales@nostarch.com
 - Add URL extraction or social media handles.
 - Include command-line arguments for file-based input.
 - Create a GUI version using Tkinter or PyQt.
+
+## License
+This project is open-source and free to use for educational or personal automation purposes. © 2025.
