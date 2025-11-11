@@ -14,3 +14,11 @@ This tool is inspired by practical text processing problems. For example, scanni
   - `info@nostarch.com`
   - `first.last123@company.org`
 - Copies all matches directly to your clipboard for quick use.
+
+## How It Works:
+1. The script grabs text currently copied to your clipboard.
+2. It uses **two regular expressions**:
+   - One to identify **phone numbers**
+   - One to identify **email addresses**
+3. All detected matches are combined into a single list.
+4. The matches are copied back to your clipboard and printed to the terminal.
