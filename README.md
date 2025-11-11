@@ -3,6 +3,9 @@
 
 This tool is inspired by practical text processing problems. For example, scanning a web page, document, or message for contact information and can easily be adapted for automation scripts or data cleaning workflows.
 
+### Code Overview:
+The code for this mini-project can be found on ()[]
+
 ## Features:
 - Detects **multiple phone number formats** such as:
   - `415-555-4242`
@@ -22,3 +25,5 @@ This tool is inspired by practical text processing problems. For example, scanni
    - One to identify **email addresses**
 3. All detected matches are combined into a single list.
 4. The matches are copied back to your clipboard and printed to the terminal.
+
+
