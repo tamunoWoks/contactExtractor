@@ -29,3 +29,7 @@ for groups in phone_re.findall(text):
     if groups[6] != '':
         phone_num += ' x' + groups[6]
     matches.append(phone_num)
+
+# Extract emails
+for groups in email_re.findall(text):
+    matches.append(groups[0])
