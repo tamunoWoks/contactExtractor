@@ -40,9 +40,14 @@ Copied to clipboard:
 info@nostarch.com
 sales@nostarch.com
 ```
-## Requirements
+## Requirements:
 - Python 3.x
 - Install the pyperclip module:
     ```bash
     pip install pyperclip
     ```
+## Possible Improvements:
+- Save results to a `.txt` or `.csv` file automatically.
+- Add URL extraction or social media handles.
+- Include command-line arguments for file-based input.
+- Create a GUI version using Tkinter or PyQt.
